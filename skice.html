@@ -4,19 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>skice</title>
-</head>
-<body style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+    <title>skice</title><link rel="stylesheet" href="skice.css">
+</head><center>
+<body>
     <h1> <center>Mērvienību kalkulators</center></h1>
     <h2><center>MATEMĀTIKAI</center></h2>
-    <h5><center>("pieejamās formulas")</center></h5>
+    <h5><center>("mm, m, cm, km, dm")</center></h5>
 
     <br>
     <br><br><br><br><br><br><br>
-    <input type="text" name="Name" size="10">  <input type="text" name="Name" size="5" <h3>PĀRVEIDOT UZ</h3> <input type="text" name="Name" size="5" >  <h3>=</h3> >  
-    <h3> PĀRVEIDOT UZ</h3>
-     <input type="text" name="Name" size="5" >  
-     <h3>=</h3>
-     <input type="text" name="Name" size="20"> 
+     
+    <h4><input type="text" id="skaitlis1" name="Name" size="12" placeholder="cipars"> 
+    <select>
+        <option value="mm">milimetri</option>
+        <option value="m">metri</option>
+        <option value="cm">centimetri</option>
+        <option value="km">kilometri</option>
+        <option value="dm">decimetri</option>
+        
+      </select> 
+         PĀRVEIDOT UZ
+      <select style="width:200px; text-align:center">
+    
+        <option value="mm2">milimetri</option>
+        <option value="m2">metri</option>
+        <option value="cm2">centimetri</option>
+        <option value="km2">kilometri</option>
+        <option value="dm2">decimetri</option>
+      
+      </select></h4>
+      <h2>=</h2>
+      <input type="text" style="text-align:center; width:130px; height:50px" id="Atbilde" name="Name" size="12" placeholder="ATBILDE"> 
+      <br><br><br><br><br><br><br><br><br><br><hr><br><br><br><br><br><br><br><br><br><br>
+      <button  style="width:300px; height:100px;text-align:center" 
+      onclick="window.location.href = 'tabula.html';"><h2>Laukuma formulu tabula!<h2></h2></button>
+
+      <br><br><br><br><br><br><br><br><br><br><hr>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <a href="aprekini.html" style="color:rgb(37, 105, 231)"><H1>VIETA, KUR VEIKT APRĒĶINUS.</H1></a>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</center> 
 </body>
 </html>

@@ -1,0 +1,10 @@
+body {
+    background-color: #436337;
+    font-family:'Times New Roman', Times, serif
+  }
+  h2 {
+    color: rgb(2, 2, 43);
+  }
+  td {
+    border: solid 2px lightgrey;
+}
