@@ -1,0 +1,73 @@
+.info {
+    color: rgb(37, 37, 37);
+    background: rgb(201, 240, 238);
+    border: 1px solid rgb(248, 248, 248);
+    width:150px;
+    border-width:4px;
+    border-style:ridge;
+    border-color:rgb(80, 173, 167)
+}
+.virsraksts1 {
+    color:rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color:rgb(164, 185, 240)
+}
+.virsraksts2 {
+    color:rgb(41, 41, 41);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color:rgb(148, 198, 228);
+}
+.virsraksts3 {
+    color:rgb(63, 63, 63);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+body{
+    background: rgb(72,161,155);
+    background: linear-gradient(90deg, rgba(72,161,155,1) 0%, rgba(147,218,201,1) 25%, rgba(207,220,255,1) 50%, rgba(170,149,226,1) 75%, rgba(131,95,114,1) 100%);
+    background-size: 100% 100%; }
+.mkalkulators{
+    background: rgb(72,161,155);
+    background: linear-gradient(90deg, rgba(72,161,155,1) 0%, rgba(147,218,201,1) 25%, rgba(207,220,255,1) 50%, rgba(170,149,226,1) 75%, rgba(131,95,114,1) 100%);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color:rgb(73, 92, 88);
+}
+.atbilde{
+    border-width:6px;
+}
+.lft{
+   border-style:groove;
+    border-width:5px;
+    border-color:rgb(161, 123, 144);
+    background:rgb(255, 240, 240);
+   
+    
+}
+.aprekini{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(190, 165, 189);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.table{
+    border-color:black;
+    border-width:4px;
+    align-self: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+table, th, td {
+    border: 1px solid rgb(41, 87, 84);
+    border-radius: 10px;
+  }
+  .home1{ 
+    color: rgb(37, 37, 37);
+    background: rgb(139, 212, 208);
+    border: 1px solid rgb(248, 248, 248);
+    width:150px;
+    border-width:4px;
+    border-style:ridge;
+    border-color:rgb(80, 173, 167)
+    
+}
+  

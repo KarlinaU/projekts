@@ -1,0 +1,10 @@
+.table{
+    border-color:black;
+    border-width:4px;
+    align-self: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.th1{
+    border-width:3px;
+}
