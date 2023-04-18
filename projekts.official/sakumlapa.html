@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sākumlapa.</title>
     <link  rel="stylesheet" href="sakumlapa.css">
-    <link  rel="stylesheet" href="sakumlapa.js">
+    <script type="text/javascript" src="sakumlapa.js"></script>
 </head>
 <body>
     <h5 class="info">Veidoja: Karlīna Monika ulme 9.b</h5>
@@ -16,26 +16,26 @@
     <br><center><div  class="mkalkulators"> 
         
         <h4><input class="skaitlis1" type="text" id="skaitlis1" name="Name" size="12" placeholder="cipars"> 
-            <select class="mervieniba1">
-                <option class="mm1" value="mm" id="10">milimetri</option>
-                <option class="m1" value="m" id="0.01">metri</option>
-                <option class="cm1" value="cm" id="1">centimetri</option>
-                <option class="km1" value="km" id="0.00001">kilometri</option>
-                <option class="dm1" value="dm" id="0.1">decimetri</option>
+            <select class="mervieniba1" id="mervieniba1">
+                <option class="mm1" value="0.1" id="mm">milimetri</option>
+                <option class="m1" value="100" id="m">metri</option>
+                <option class="cm1" value="1" id="cm">centimetri</option>
+                <option class="km1" value="100000" id="km">kilometri</option>
+                <option class="dm1" value="10" id="dm">decimetri</option>
                 
               </select> 
                  PĀRVEIDOT UZ
-              <select class="mervieniba2" style="width:200px; text-align:center">
+              <select class="mervieniba2" id="mervieniba2" style="width:200px; text-align:center">
             
-                <option class="mm2" value="mm2" id="10">milimetri</option>
-                <option class="m2" value="m2" id="0.01">metri</option>
-                <option class="cm2" value="cm2" id="1">centimetri</option>
-                <option class="km2" value="km2" id="0.00001">kilometri</option>
-                <option class="dm2" value="dm2" id="0.1">decimetri</option>
+                <option class="mm2" value="10" id="mm2">milimetri</option>
+                <option class="m2" value="0.01" id="m2">metri</option>
+                <option class="cm2" value="1" id="cm2">centimetri</option>
+                <option class="km2" value="0.00001" id="km">kilometri</option>
+                <option class="dm2" value="0.1" id="dm2">decimetri</option>
         
               
               </select></h4>
-              <button class="poga" style="background-color: rgba(19, 64, 104, 0); border-width: 0; font-size: 5vw; cursor: pointer;">=</button><br>
+              <button class="poga" id="convbutton" onclick="CalcNum()" style="background-color: rgba(19, 64, 104, 0); border-width: 0; font-size: 5vw; cursor: pointer;">=</button><br>
       <input type="text" class="atbilde" style="text-align:center; width:130px; height:50px; ;" id="Atbilde" name="Name" size="12" placeholder="ATBILDE" disabled>
 
     </div>
