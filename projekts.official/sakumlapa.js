@@ -10,5 +10,13 @@ function CalcNum(){
     var selector = document.getElementById('mervieniba2');
     var convend = selector[selector.selectedIndex].value;
     startnum*=convend
+    if(startnum == 0){
+        alert("Ievadiet skaitli")
+    }
+    else if(startnum == document.getElementById("skaitlis1").value){
+        alert("Izvēlies dažādas mērvienības!")
+    }
+    else{
     document.getElementById("Atbilde").value = startnum
+    }
 }
