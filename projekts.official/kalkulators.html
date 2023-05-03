@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Vieta aprēķiniem.</title>
     <link  rel="stylesheet" href="kalkulators.css">
     <link rel="script" href="kalkulators.js">
@@ -53,6 +54,49 @@
         
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <br><hr class="hr10" >
+=======
+    <title>Aprēķini</title>
+    <link  rel="stylesheet" href="kalkulators.css">
+</head>
+<body>
+    <button onclick="window.location.href = 'sakumlapa.html';"style="width:100px; height:50px">HOME</button>
+    <form name="calculator">
+        <table style="height:200px; width:300px ">
+           <tr>
+              <td colspan="4">
+                 <input style="background-color:#4797FF; height:40px; width:275px" type="text" name="display" id="display" disabled>
+              </td>
+           </tr>
+           <tr>
+              <td><input style="background-color:#8fbfff; height:60px; width:60px " type="button" name="one" value="1" onclick="calculator.display.value += '1'"></td>
+              <td><input style="background-color:#8fbfff ; height:60px; width:60px  " type="button" name="two" value="2" onclick="calculator.display.value += '2'"></td>
+              <td><input style="background-color:#8fbfff;  height:60px; width:60px  " type="button" name="three" value="3" onclick="calculator.display.value += '3'"></td>
+              <td><input style="background-color:#8fbfff ;  height:60px; width:60px  " type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += '+'"></td>
+           </tr>
+           <tr>
+              <td><input style="background-color:#8fbfff ;  height:60px; width:60px  " type="button" name="four" value="4" onclick="calculator.display.value += '4'"></td>
+              <td><input style="background-color:#8fbfff;  height:60px; width:60px  " type="button" name="five" value="5" onclick="calculator.display.value += '5'"></td>
+              <td><input style="background-color:#8fbfff; height:60px; width:60px  " type="button" name="six" value="6" onclick="calculator.display.value += '6'"></td>
+              <td><input style="background-color:#8fbfff; height:60px; width:60px  " type="button" class="operator" name="minus" value="-" onclick="calculator.display.value += '-'"></td>
+           </tr>
+           <tr>
+              <td><input style="background-color:#8fbfff ;  height:60px; width:60px " type="button" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
+              <td><input style="background-color:#8fbfff ; height:60px; width:60px  " type="button" name="eight" value="8" onclick="calculator.display.value += '8'"></td>
+              <td><input style="background-color:#8fbfff ;  height:60px; width:60px " type="button" name="nine" value="9" onclick="calculator.display.value += '9'"></td>
+              <td><input style="background-color:#8fbfff ;  height:60px; width:60px  " type="button" class="operator" name="times" value="x" onclick="calculator.display.value += '*'"></td>
+           </tr>
+           <tr>
+              <td><input style="background-color:#8fbfff;  height:60px; width:60px  " type="button" id="clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>
+              <td><input style="background-color:#8fbfff ;  height:60px; width:60px  " type="button" name="zero" value="0" onclick="calculator.display.value += '0'"></td>
+              <td><input style="background-color:#8fbfff ;  height:60px; width:60px  " type="button" name="doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
+              <td><input style="background-color:#8fbfff; height:60px; width:60px " type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
+           </tr>
+           <br><br><br>
+        </table><br><br><br><br><br>
+        <h2>Aprēķinus raksti šeit:</h2>
+        <input type="text" style=" text-align:start; width:900px; height:500px" id="Atbilde" name="Name" size="12" > 
+        
+>>>>>>> 914a2443ba1a3daa46d32e2ed6ebe41288e9a033
      
 </body>
 </html>

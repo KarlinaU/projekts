@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   h2 {
     color: rgb(2, 2, 43);
@@ -164,3 +165,13 @@
 
 
     
+=======
+body {
+    background-color: powderblue;
+    font-family:'Times New Roman', Times, serif
+  }
+  h2 {
+    color: rgb(2, 2, 43);
+  }
+  
+>>>>>>> 914a2443ba1a3daa46d32e2ed6ebe41288e9a033
